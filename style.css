@@ -1,0 +1,73 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #242424;
+    height: auto;
+    width: 25%;
+}
+
+#items {
+    display: flex;
+    align-items: flex-start; /* Align items from the top */
+    justify-content: space-between;
+}
+h1
+{
+    color: #242424;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.left-items {
+    width: 80%;
+    align-items: flex-start;
+}
+.bottom-nums button
+{
+    background-color: rgb(255, 220, 79);
+}
+.top-signs button
+{
+    background-color: darkkhaki;
+}
+.bottom-nums > #num0
+{
+    width: 60%;
+}
+
+.signs {
+    width: 20%;
+    display: flex;
+    flex-direction: column; /* Stack symbols vertically */
+    align-items: center; /* Center buttons horizontally */
+    justify-content: space-between; /* Space buttons evenly */
+}
+.signs button
+{
+    background-color: rgb(91, 181, 255);
+}
+ button {
+    width: 70px; /* Ensure buttons fit properly */
+    height: 60px;
+    background-color: burlywood;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#display-area {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+}
